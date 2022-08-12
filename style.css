@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+    body {
+      background-color: #FFEDD5;
+      font-family: 'roboto', sans-serif;
+    }
+    
+    ul {
+      list-style: none;
+    }
+    
+    header {
+      text-align:  center;
+      padding: 15px 0;
+    }
+
+    h1 {
+       font-size: 34px;
+       line-height: 33px;
+       margin-bottom: 10px;
+    }
+
+    header h1 span {
+      color: #995000;
+      line-height: 33px;
+      font-size: 38px;
+    }
+
+    header p {
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 16px;
+
+       color: rgba(0, 0, 0, 0.7);
+    }
+    
+    header,
+    section {
+      max-width: 300px;
+      border: 1px;
+      margin: auto;
+    }
+    
+    section {
+      margin-bottom: 24px;
+    }
+    
+    section h2 {
+      background-color: #FED7AA;
+      padding: 8px 16px;
+      text-align: center;
+
+      margin-bottom: 24px;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700px;
+    }
+    
+    ul li {
+      margin-bottom: 16px;
+      display: flex;
+    }
+    
+    li .details {
+      max-width: 240px;
+    }
+    
+    div h3,
+    .details h3 {
+      padding-bottom: 8px;
+      font-size: 16px;
+      line-height: 18px;
+      text-transform: uppercase;
+    }
+    
+    .time {
+      text-align: center;
+    }
+    
+    p {
+      text-align: justify;
+      font-size: 14px;
+      line-height: 21px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+    
+    h1, h2, h3 .price {
+      font-family: 'roboto serif', serif;
+      text-transform: uppercase;
+      color: #2D2C2A;
+    }
+
